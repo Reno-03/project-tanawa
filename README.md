@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="Project Tanawa Logo" width="160" />
+</p>
+
 ## Project Tanawa
 
 Personal IoT project integrating ESP32, ESP32-CAM, and a Python OCR Flask server, connected to Blynk for control and telemetry. ESP32 detects a vehicle, triggers ESP32‑CAM to capture, ESP32‑CAM POSTs the image to Flask for OCR, results are logged to Google Sheets/Drive and sent back to ESP32 to drive the gate servo.
@@ -7,6 +11,13 @@ Add your demo GIF here after recording it:
 
 ```
 screenshots/demo.gif
+```
+
+### Circuit Diagram
+Circuit diagram image:
+
+```
+screenshots/system-circuit-design.png
 ```
 
 ### Key Features
@@ -44,10 +55,9 @@ scripts/
   python/
     main.py
     requirements.txt
-tools/
-  extract_from_docx.py
 screenshots/
   demo.gif
+  system-circuit-design.png
 ```
 
 ### Requirements

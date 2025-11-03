@@ -8,6 +8,7 @@ captured_images/
 # Secrets
 .env
 credentials.json
+*.docx
 
 # Arduino/PlatformIO secrets
 firmware/esp32/secrets.h
