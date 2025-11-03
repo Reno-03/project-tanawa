@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="Project Tanawa Logo" width="160" />
+  <img src="logo.png" alt="Project Tanawa Logo" width="300" />
 </p>
 
 ## Project Tanawa
@@ -14,11 +14,9 @@ screenshots/demo.gif
 ```
 
 ### Circuit Diagram
-Circuit diagram image:
-
-```
-screenshots/system-circuit-design.png
-```
+<p align="center">
+  <img src="screenshots/system-circuit-design.png" alt="System Circuit Design" width="800" />
+</p>
 
 ### Key Features
 - **ESP32 telemetry and control**: Ultrasonic detection, buzzer/LED alerts, gate servo.
