@@ -42,8 +42,6 @@ If present, the demo GIF will render below:
   <img src="screenshots/demo.gif" alt="Project Demo" width="800" />
 </p>
 
-Place your GIF at: `screenshots/demo.gif`.
-
 ### 🔌 Circuit Diagram
 <p align="center">
   <img src="screenshots/system-circuit-design.png" alt="System Circuit Design" width="800" />
