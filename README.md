@@ -39,7 +39,7 @@ Personal IoT project integrating ESP32, ESP32-CAM, and a Python OCR Flask server
 If present, the demo GIF will render below:
 
 <p align="center">
-  <img src="screenshots/demo.gif" alt="Project Demo" width="800" />
+  <video src="screenshots/demo.mp4" width="800" autoplay loop muted></video>
 </p>
 
 ### 🔌 Circuit Diagram
