@@ -1,17 +1,46 @@
 <p align="center">
-  <img src="logo.png" alt="Project Tanawa Logo" width="300" />
+  <img src="screenshots/logo.png" alt="Project Tanawa Logo" width="600" />
 </p>
 
 ## Project Tanawa
 
+<p align="center">
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" alt="Python"></a>
+  <a href="https://www.arduino.cc/"><img src="https://img.shields.io/badge/Arduino-ESP32-00979D?logo=arduino" alt="Arduino ESP32"></a>
+  <a href="https://blynk.io/"><img src="https://img.shields.io/badge/Blynk-Cloud-success" alt="Blynk"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+</p>
+
 Personal IoT project integrating ESP32, ESP32-CAM, and a Python OCR Flask server, connected to Blynk for control and telemetry. ESP32 detects a vehicle, triggers ESP32‑CAM to capture, ESP32‑CAM POSTs the image to Flask for OCR, results are logged to Google Sheets/Drive and sent back to ESP32 to drive the gate servo.
 
-### Demo
-Add your demo GIF here after recording it:
+---
 
-```
-screenshots/demo.gif
-```
+### Contents
+- [Demo](#demo)
+- [Circuit Diagram](#circuit-diagram)
+- [Key Features](#key-features)
+- [Tech Stack](#tech-stack)
+- [Architecture (Overview)](#architecture-overview)
+- [API Endpoints](#api-endpoints)
+- [Repository Structure](#repository-structure)
+- [Requirements](#requirements)
+- [Blynk Setup](#blynk-setup)
+- [Firmware Setup (ESP32 / ESP32‑CAM)](#firmware-setup-esp32--esp32cam)
+- [Python OCR Server Setup](#python-ocr-server-setup)
+- [Usage](#usage)
+- [Security Notes](#security-notes)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
+- [Author](#author)
+
+### Demo
+If present, the demo GIF will render below:
+
+<p align="center">
+  <img src="screenshots/demo.gif" alt="Project Demo" width="800" />
+</p>
+
+Place your GIF at: `screenshots/demo.gif`.
 
 ### Circuit Diagram
 <p align="center">
@@ -88,6 +117,9 @@ python -m venv .venv
 pip install -r scripts\python\requirements.txt
 python scripts\python\main.py
 ```
+
+### Security Notes
+> Do not commit secrets. Keep `credentials.json`, `.env`, and Arduino `secrets.h` out of git. Use `scripts/python/example.env` as a template for your local `.env` and create `secrets.h.example` files for Arduino credentials.
 
 ### Usage
 1. Start the Flask OCR server on a reachable host (`POST /capture` on port 5000).
