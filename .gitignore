@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+extracted/
+captured_images/
+
+# Secrets
+.env
+credentials.json
+
+# Arduino/PlatformIO secrets
+firmware/esp32/secrets.h
+firmware/esp32-cam/cam_secrets.h
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
