@@ -17,24 +17,6 @@ Personal IoT project integrating ESP32, ESP32-CAM, and a Python OCR Flask server
 
 ---
 
-### 🧭 Contents
-- [Demo](#demo)
-- [Circuit Diagram](#circuit-diagram)
-- [Key Features](#key-features)
-- [Tech Stack](#tech-stack)
-- [Architecture (Overview)](#architecture-overview)
-- [API Endpoints](#api-endpoints)
-- [Repository Structure](#repository-structure)
-- [Requirements](#requirements)
-- [Blynk Setup](#blynk-setup)
-- [Firmware Setup (ESP32 / ESP32‑CAM)](#firmware-setup-esp32--esp32cam)
-- [Python OCR Server Setup](#python-ocr-server-setup)
-- [Usage](#usage)
-- [Security Notes](#security-notes)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
-- [Author](#author)
-
 ### 📸 Demo
 https://github.com/user-attachments/assets/3b5c396b-be65-47b5-8de5-8b281186aff4
 
