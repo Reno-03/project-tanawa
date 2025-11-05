@@ -7,8 +7,8 @@
 #include "camera_pins.h"
 
 // WiFi credentials
-const char* ssid     = "AOBY_2.4";
-const char* password = "PASSWORD_1995";
+const char* ssid     = "";
+const char* password = "";
 
 // Flask server URL
 const char* flaskServerUrl = "http://192.168.254.108:5000/capture";
