@@ -115,6 +115,6 @@ python scripts\python\main.py
 This project is licensed under the MIT License. See `LICENSE` for details.
 
 ### 👤 Author
-Reno-03 (2025)
+Reno-03 and Aru (2025)
 
 
